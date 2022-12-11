@@ -18,7 +18,7 @@ public class CheckBox2 {
 		driver.findElement(By.id("chk-0")).click();
 
 		// To Validate isSelected
-
+        // added "Nibras the tester is pushing" as per comment by nibras the lead
 		WebElement checkBox1 = driver.findElement(By.id("chk-0"));
 
 		boolean isSelected = checkBox1.isSelected();
